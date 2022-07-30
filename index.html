@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport"/>
+        <meta content="Quiz Application" name="description"/>
+        <title>Quiz Application</title>
+        <link href="https://i.ibb.co/DpfSzfC/5300-png-300.png" rel="icon" type="image/x-icon"/>
+        <!-- Statique -->
+        <meta content='website' property='og:type'/>
+        <include expiration='7d' path='*.css'></include>
+        <include expiration='7d' path='*.js'></include>
+        <include expiration='3d' path='*.gif'></include>
+        <include expiration='3d' path='*.jpeg'></include>
+        <include expiration='3d' path='*.jpg'></include>
+        <include expiration='3d' path='*.png'></include>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <button class="start">Start<br><span>You have 5s for each question</span></button>
+        <div class="app-container">
+        <div class="popup-overlay"></div>
+            <div class="info">
+                <div class="category">Category : <span>HTML</span></div>
+                <div class="count">Questions Count : <span></span></div>
+            </div>
+            <div class="quiz">
+                <h2></h2>
+            </div>
+            <div class="answers">
+            </div>
+            <button class="submit-button">Submit answer</button>
+            <div class="bullets">
+                <div class="spans">
+                </div>
+                <div class="countdown">
+                    <span class="minute">00</span> : <span class="second">50</span>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

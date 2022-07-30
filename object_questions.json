@@ -1,0 +1,78 @@
+[
+    {
+        "title" : "The web is based on",
+        "answer_1": "Images",
+        "answer_2": "Text",
+        "answer_3": "Information",
+        "answer_4": "HTML",
+        "right_answer": "HTML"
+    },
+    {
+        "title" : "What does HTML stand for?",
+        "answer_1": "Hyper Tag Markup Language",
+        "answer_2": "Hyper Text Markup Language",
+        "answer_3": "Hyperlinks Text Mark Language",
+        "answer_4": "Hyperlinking Text Marking Language",
+        "right_answer": "Hyper Text Markup Language"
+    },
+    {
+        "title" : "A CSS file can be applied to only one HTML file",
+        "answer_1": "True",
+        "answer_2": "False",
+        "right_answer": "False"
+    },
+    {
+        "title" : "What is the correct tag for a line break",
+        "answer_1": "&lt;brk/>",
+        "answer_2": "&lt;line/>",
+        "answer_3": "&lt;bk/>",
+        "answer_4": "&lt;br/>",
+        "right_answer": "&lt;br/>"
+    },
+    {
+        "title" : "What does CSS stand for?",
+        "answer_1": "Computing Style Sheet",
+        "answer_2": "Creative Style System",
+        "answer_3": "Cascading Style Sheet",
+        "answer_4": "Creative Styling Sheet",
+        "right_answer": "Cascading Style Sheet"
+    },
+    {
+        "title" : "Where should a CSS file be referenced in a HTML file?",
+        "answer_1": "Before any HTML code",
+        "answer_2": "After all HTML code",
+        "answer_3": "Inside the head section",
+        "answer_4": "Inside the body section",
+        "right_answer": "Inside the head section"
+    },
+    {
+        "title" : "What is the correct format for aligning written content to the center of the page in CSS?",
+        "answer_1": "Text-align:center;",
+        "answer_2": "Font-align:center;",
+        "answer_3": "Text:align-center;",
+        "answer_4": "Font:align-center;",
+        "right_answer": "Text-align:center;"
+    },
+    {
+        "title" : "What is the correct format for changing the background colour of a div in CSS?",
+        "answer_1": "Bg-color:red;",
+        "answer_2": "Background:red;",
+        "answer_3": "Background-colour:red;",
+        "answer_4": "Background-color:red;",
+        "right_answer": "Background-color:red;"
+    },
+    {
+        "title" : "What is a web server?",
+        "answer_1": "Computer program that delivers content",
+        "answer_2": "World Wide Web",
+        "answer_3": "A remote computer that is used to network computers",
+        "right_answer": "Computer program that delivers content"
+    },
+    {
+        "title" : "What is web hosting?",
+        "answer_1": "A domain name",
+        "answer_2": "Something people view with a browser",
+        "answer_3": "Online space for web site and data",
+        "right_answer": "Online space for web site and data"
+    }
+]

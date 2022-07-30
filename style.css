@@ -1,0 +1,124 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+}
+.app-container {
+    background-color: #181818;
+    color: #FFFFFF;
+    height: fit-content;
+    width: 850px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: relative;
+}
+.info {
+    display: flex;
+    padding: 15px;
+    background-color: #282828;
+    border-radius: 15px 15px 0 0;
+    justify-content: space-between;
+}
+.quiz {
+    padding: 15px 15px 0 15px;
+    background-color: #282828;
+    margin-top: 10px;
+}
+.answers {
+    padding: 15px;
+    background-color: #282828;
+}
+.answers .answer {
+    margin-left: 20px;
+    border: 2px solid #404040;
+    margin: 10px;
+    padding: 10px;
+}
+.answers .answer label {
+    display: inline-block;
+    cursor: pointer;
+    width: 95%;
+    margin-left: 10px;
+}
+.answers .answer input {
+    cursor: pointer;
+}
+.answers .answer input:checked + label {
+    color: #95c1f5;
+}
+.submit-button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #57B560;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+.bullets {
+    padding: 15px;
+    background-color: #282828;
+    display: flex;
+    border-radius: 0 0 15px 15px;
+}
+.bullets .spans {
+    flex: 1;
+    display: flex;
+}
+.bullets .spans span {
+    width: 20px;
+    height: 20px;
+    background-color: #333333;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.bullets .spans span.on {
+    background-color: #57B560;
+}
+.bullets .spans span.off {
+    background-color: #f54545;
+}
+.popup-overlay {
+    position: absolute;
+	background-color: rgba(0,0,0,.7);
+	width: 100.4%;
+    right: -1px;
+    top: -1px;
+    height: 100.5%;
+	z-index: 1000;
+    border-radius: 20px;
+}
+.start {
+    position: absolute;
+    padding: 15px 40px;
+    z-index: 1001;
+    font-size: 1.5em;
+    top: 36%;
+    cursor: pointer;
+}
+.start span {
+    font-size: 15px;
+}
+.score {
+    position: absolute;
+    padding: 15px 40px;
+    z-index: 1001;
+    font-size: 2em;
+    top: 36%;
+    background-color: white;
+    font-weight: bold;
+}
