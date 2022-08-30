@@ -1,3 +1,2 @@
 # Quiz_Application
-Simple quiz application : HTML &amp; CSS &amp; JS
-<br/>
+Simple quiz application : <a href="https://abdelhafidrahab.github.io/Quiz_Application/"> 🚀 DEMO  </a><br/>
